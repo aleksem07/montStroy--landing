@@ -16,7 +16,12 @@
 }
 
 .main-header-logo {
+  min-width: min-content;
   align-self: end;
+}
+
+.main-header-logo img{
+  min-width: min-content;
 }
 
 .site-navigation {
@@ -37,6 +42,8 @@
 .main-header-phone {
   margin-left: auto;
   margin-bottom: 8px;
+
+  min-width: max-content;
 
   font-size: 18px;
   line-height: 20px;

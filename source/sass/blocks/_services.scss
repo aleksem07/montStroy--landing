@@ -1,0 +1,42 @@
+.services {
+  margin-bottom: 65px;
+  padding-bottom: 50px;
+}
+
+.services-header-wrapper {
+  margin-bottom: 18px;
+  padding-block: 15px;
+  position: relative;
+}
+
+.services-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 34px;
+
+  font-size: 13px;
+
+    line-height: 16px;
+}
+
+.services-item {
+  margin-bottom: 10px;
+  padding-block: 26px;
+  padding-inline: 35px 47px;
+
+  width: 353px;
+  min-height: 496px;
+
+  box-shadow: 1px 1px 10px 1px $basic_black--transparent;
+}
+
+.service-title {
+  margin-bottom: 23px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.service-item {
+  margin-bottom: 15px;
+}

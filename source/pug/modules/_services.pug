@@ -1,24 +1,23 @@
+mixin service-item(text, href='#')
+  li.service-item
+    a.service-link(href=href) #{text};
+
 section.services
   .container
     .services-header-wrapper
       h2.section-title(id='services') Услуги
     ul.services-list
+
       li.services-item
         h3.service-title Проектирование
         ul.service-list
-          li.service-item
-            a.service-link(href='#') Предварительная разработка концепции;
-          li.service-item
-            a.service-link(href='#') Установка систем энергоснабжения;
-          li.service-item
-            a.service-link(href='#') Оформление задания на проектирование;
-          li.service-item
-            a.service-link(href='#') Разработка всей рабочей и проектной документации;
-          li.service-item
-            a.service-link(href='#') Окончательное согласование проекта энергоснабжения в органах гос.надзора;
-          li.service-item
-            a.service-link(href='#')
-              | Обеспечение авторского надзора на протяжении всего строительства (контроль за соблюдением всех норм и проектных разработок).
+          +service-item('Предварительная разработка концепции;')
+          +service-item('Установка систем энергоснабжения;')
+          +service-item('Оформление задания на проектирование;')
+          +service-item('Разработка всей рабочей и проектной документации;')
+          +service-item('Окончательное согласование проекта энергоснабжения в органах гос.надзора;')
+          +service-item('Обеспечение авторского надзора на протяжении всего строительства (контроль за соблюдением всех норм и проектных разработок)')
+
       li.services-item
         h3.service-title Инженерные изыскания
         ul.service-list
