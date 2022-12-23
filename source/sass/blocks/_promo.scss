@@ -5,7 +5,7 @@
   max-width: 1920px;
   min-height: 1065px;
 
-  background-image: url('../../img/promo-photo.jpg');
+  background-image: url('/img/promo-photo.webp');
   background-color: $basic_black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -100,23 +100,23 @@
   width: 70px;
   height: 70px;
 
-  background-image: url('../../img/icons/like.svg');
+  background-image: url('/img/icons/like.svg');
   background-repeat: no-repeat;
   opacity: 0.6;
 }
 
 .features-item:nth-child(2)::before {
-  background-image: url('../../img/icons/services.svg');
+  background-image: url('/img/icons/services.svg');
 }
 
 .features-item:nth-child(3)::before {
-  background-image: url('../../img/icons/handshake.svg');
+  background-image: url('/img/icons/handshake.svg');
 }
 
 .features-item:nth-child(4)::before {
-  background-image: url('../../img/icons/russia.svg');
+  background-image: url('/img/icons/russia.svg');
 }
 
 .features-item:nth-child(5)::before {
-  background-image: url('../../img/icons/settings.svg');
+  background-image: url('/img/icons/settings.svg');
 }
