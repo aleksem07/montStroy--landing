@@ -1,4 +1,4 @@
-<!-- [Опубликованная версия](https://aleksem07.github.io/montStroy--landing "Опубликованная версия") -->
+[Опубликованная версия](https://aleksem07.github.io/montStroy--landing "Опубликованная версия")
 Верстка лендинга по jpg файлу
 ---
 
