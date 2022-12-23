@@ -1,0 +1,14 @@
+extends layout/layout
+
+block variables
+  - var title = 'Сайт компании «МонтСтрой»'
+  - var pageClass = "index-page"
+
+block content
+  main(class= pageClass)
+    h1.visually-hidden Главная страница компании «МонтСтрой»
+    include modules/_promo
+    include modules/_services
+    include modules/_projects
+    include modules/_partners
+

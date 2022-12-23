@@ -1,0 +1,23 @@
+/* button */
+
+/*menu */
+.site-navigation-item:not(:nth-child(1)) a:hover {
+  padding-bottom: 10px;
+  border-bottom: 1px solid $basic_cyan;
+}
+
+.big-button {
+  border-radius: 5px;
+}
+
+.big-button:hover {
+  color: $basic_cyan;
+  background-color: $basic_black;
+  border: 1px solid $basic_cyan;
+  transition: all 0.5s ease;
+}
+
+.promo-link:hover {
+  box-shadow: 0 0 50px 10px $basic_cyan--transparent;
+
+}

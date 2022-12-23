@@ -1,0 +1,122 @@
+.promo {
+  margin: 0 auto;
+  margin-bottom: 127px;
+
+  max-width: 1920px;
+  min-height: 1065px;
+
+  background-image: url('../../img/promo-photo.jpg');
+  background-color: $basic_black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -100px;
+
+  color: $basic_white;
+}
+
+.promo-title {
+  padding-top: 156px;
+
+  font-size: 72px;
+  line-height: 85px;
+  font-weight: 900;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+
+.promo-text {
+  margin-bottom: 70px;
+
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 500;
+}
+
+.promo-text span {
+  color: $basic_cyan;
+}
+
+.promo-link-wrapper {
+    margin-bottom: 100px;
+}
+
+.promo-link {
+  padding-block: 18px;
+  padding-inline: 80px;
+
+  width: 100px;
+  height: 50px;
+
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.aqua-link {
+  margin-right: 20px;
+  background-color: $basic_cyan;
+  border: 1px solid $basic_cyan;
+}
+
+.border-aqua-link {
+  padding-inline: 50px;
+
+  border: 1px solid $basic_cyan;
+  color: $basic_white;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 14px;
+  text-align: center;
+}
+
+.features-item {
+  width: 230px;
+  height: 306px;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.features-item:nth-child(2n)::before {
+  margin-top: auto;
+}
+
+.features-text {
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.features-item::before {
+  content: '';
+  margin-top: 47px;
+
+  width: 70px;
+  height: 70px;
+
+  background-image: url('../../img/icons/like.svg');
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+.features-item:nth-child(2)::before {
+  background-image: url('../../img/icons/services.svg');
+}
+
+.features-item:nth-child(3)::before {
+  background-image: url('../../img/icons/handshake.svg');
+}
+
+.features-item:nth-child(4)::before {
+  background-image: url('../../img/icons/russia.svg');
+}
+
+.features-item:nth-child(5)::before {
+  background-image: url('../../img/icons/settings.svg');
+}
