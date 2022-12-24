@@ -20,3 +20,47 @@
 .promo-link:hover {
   box-shadow: 0 0 50px 10px $basic_cyan--transparent;
 }
+
+//partners
+
+.button {
+  width: 55px;
+  height: 35px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: inherit;
+  border: none;
+  border-block: 2px solid $basic_black;
+}
+
+.button-prev {
+  margin-right: -4px;
+
+  position: relative;
+
+  background-image: url('/img/left-arrow.webp');
+  border-left: 1px solid $basic_black;
+}
+
+.button-prev::after {
+  content: '';
+  width: 1px;
+  height: 10px;
+
+  position: absolute;
+  top: 10px;
+  right: 0;
+
+  background-color: $basic_black;
+}
+
+.button-next {
+  background-image: url('/img/right-arrow.webp');
+  border-right: 1px solid $basic_black;
+}
+
+.button:hover {
+  background-color: $basic_cyan--transparent;
+  transition: all 0.5s ease;
+}

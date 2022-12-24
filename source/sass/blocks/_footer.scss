@@ -1,5 +1,26 @@
 /* footer */
 
-.footer {
+.main-footer {
   margin-top: auto;
+  display: flex;
+  flex-direction: column;
+
+  background-color: $basic_black;
+}
+
+
+.main-footer-map {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.main-footer-content-wrapper {
+  padding-block: 65px;
+
+  width: $desktop-width;
+  display: flex;
+
+  color: $basic_white;
+
+  border-top: 1px solid $basic_cyan;
 }
