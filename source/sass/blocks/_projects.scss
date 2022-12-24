@@ -1,5 +1,27 @@
+.projects {
+  margin-bottom: 104px;
+}
+
 .projects-header-wrapper {
+  margin-bottom: 30px;
   position: relative;
 
   overflow: hidden;
+}
+
+.projects-list {
+  display: flex;
+  gap: 3px;
+  flex-wrap: wrap;
+}
+
+.projects-item {
+  position: relative;
+}
+
+.projects-item-content {
+  position: absolute;
+  top: 0;
+
+  color: $basic_white;
 }

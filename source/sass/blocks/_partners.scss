@@ -1,5 +1,28 @@
+.partners {
+  margin-bottom: 125px;
+}
+
 .partners-header-wrapper {
+  margin-bottom: 45px;
   position: relative;
 
+  display: flex;
+  justify-content: space-between;
+
   overflow: hidden;
+}
+
+.partners-button-wrapper {
+  padding-left: 47px;
+  align-self: center;
+
+  z-index: 1;
+
+  background-color: $background;
+}
+
+.partners-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
 }

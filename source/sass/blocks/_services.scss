@@ -42,3 +42,7 @@
 .service-item {
   margin-bottom: 15px;
 }
+
+.service-link:hover {
+  border-bottom: 1px solid $basic_black--transparent;
+}
